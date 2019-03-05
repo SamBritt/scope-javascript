@@ -36,8 +36,9 @@ console.log(returnConjunction);
     })
 
 
-let showInfo = document.querySelector(".show-info");
-showInfo.innerHTML = HTMLRepresentation;
+// let showInfo = document.querySelector(".show-info");
+// showInfo.innerHTML = HTMLRepresentation;
+document.querySelector(".show-info").innerHTML = HTMLRepresentation;
 
 //Simon Says
 const locations = [[1,1], [1,2], [1,3], [2,1], [2,2], [2,3]];
